@@ -1,0 +1,40 @@
+{
+  "name": "fuli",
+  "version": "0.0.0",
+  "description": "fuli",
+  "license": "MIT",
+  "repository": "egoist/fuli",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "start": "tooling watch -e src -p 3078 --title 福利 --silent --bs"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "isomorphic-fetch": "^2.2.1",
+    "redux": "^3.3.1",
+    "redux-actions": "^0.9.1",
+    "redux-promise": "^0.5.1",
+    "redux-thunk": "^1.0.3",
+    "revue": "^2.0.0-rc1",
+    "vue-touch": "^1.0.2",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
