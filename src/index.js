@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import Vue from 'vue'
 import touch from 'vue-touch'
 import app from './app'
