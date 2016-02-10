@@ -11,7 +11,7 @@
 	}
 	.main {
 		max-width: 400px;
-		margin: 20px auto;
+		margin: 0 auto;
 		overflow: hidden;
 	}
 	.images-wrapper {
@@ -24,6 +24,7 @@
 	.images {
 		position: absolute;
 		left: 0;
+		transition: left .3s;
 		width: 400px;
 		height: 600px;
 		.image {
